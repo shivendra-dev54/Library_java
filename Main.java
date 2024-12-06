@@ -51,6 +51,6 @@ public class Main {
                     System.out.println("Invalid choice. Please try again.");
             }
         }
-        
+
     }
 }
