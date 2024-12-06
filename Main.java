@@ -45,10 +45,12 @@ public class Main {
                 case 5:
                     library.saveBooks();
                     System.out.println("Exiting the program. Have a great day!");
+                    scanner.close();
                     return;
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }
         }
+        
     }
 }
